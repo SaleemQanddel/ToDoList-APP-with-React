@@ -6,6 +6,10 @@ This project is fully containerized using Docker to allow any developer to run i
 
 ---
 
+## Demo Video
+https://github.com/user-attachments/assets/eda8c7df-7b08-4e5d-8477-8ac96930b6e5
+
+
 ## Tech Stack
 - React
 - Vite
