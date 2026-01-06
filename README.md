@@ -30,16 +30,22 @@ docker build -t todo-app .
 
 run -p 5173:5173 todo-app
 
+---
+
 ### Run Using Docker Compose
 docker compose up --build
 Then open:
 http://localhost:5173
+ 
+ ---
  
  ### How to Stop the Container and Clean Up
 
  ### Stop the running container
 Press:
 CTRL + C
+
+ ---
 
 ### Configuration Notes
 The application runs on port 5173
@@ -49,6 +55,8 @@ No environment variables are required
 Port mapping used:
 
 5173:5173
+ 
+ ---
 
 ### How to Test the Application
 
