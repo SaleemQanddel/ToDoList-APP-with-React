@@ -2,12 +2,12 @@ import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-    plugins: [
-        tailwindcss(),
-    ],
+    plugins: [tailwindcss()],
     server: {
         host: true,
         strictPort: false,
-        allowedHosts: '*'
+        allowedHosts: [
+            'todolist-app-with-react.onrender.com'
+        ]
     }
 })
