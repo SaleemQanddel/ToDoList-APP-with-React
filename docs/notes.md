@@ -11,3 +11,14 @@ Overall, working with Docker and Docker Compose was challenging but enjoyable, a
 ## Git/GitHub Lesson Learned
 
 The most important lesson I learned from this assignment was how to properly use Git and GitHub for version control. I learned how to commit changes frequently, push updates to a remote repository, and manage my project history. This helped me track my progress, collaborate better, and avoid losing work.
+
+--- 
+
+## Challenges and Solution:
+
+Initially, the deployment did not work because the Vite configuration blocked requests from external hosts. To fix this, I updated the vite.config.js file to allow the Render host by adding it to the allowedHosts array. This enabled the application to run successfully on Render.
+ 
+ allowedHosts: [
+      'todolist-app-with-react.onrender.com'
+    ]
+
